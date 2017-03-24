@@ -8,7 +8,7 @@ from cronometro import Cronometro
 
 
 arcpy.env.workspace = r"Database Connections\My Database Connection.sde"
-data = "BD_ESTRATIFICACION_URBANA.DBO.BASE_CATASTRAL"
+data = "BD.DBO.MY_TABLE"
 
 print("Eliminando tabla predios")
 conn = psycopg2.connect("dbname='xxxxxx' user='xxxxxx' host='xxx.xx.xx.xxx' password='xxxxxxxx'")
